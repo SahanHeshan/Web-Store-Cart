@@ -1,0 +1,84 @@
+@media screen and (min-width: 320px) {
+.side-menu {
+    position: fixed;
+    top: 0;
+    z-index: 60;
+    right: -400px; 
+    width: 320px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease-in-out;
+  }
+}
+@media screen and (min-width: 640px) {
+  .side-menu {
+    width: 400px;
+    }
+  }
+  
+  .side-menu.open {
+    right: 0; 
+  }
+  
+  .side-menu-content {
+    padding: 20px;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px / 50px;
+    box-shadow: 2px 4px 12px rgba(1, 90, 255, 0.3);
+    font-size: 1rem;
+  }
+
+   .close-btn:hover{
+     color: #fff;
+     background-color: #000;
+     box-shadow: 2px 4px 12px rgba(1, 90, 255, 0.3);
+     font-size: 1rem;
+    }
+
+  .subtotal{
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 10px / 10px;
+    color: #007bff;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+.subtotal-value{
+  color: #000;
+  font-size: 2rem;
+  font-weight: 500;
+}
+  .side-menu-content {
+    background-color:#007bff;
+    color: #fff;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.427);
+    transition: all .3s cubic-bezier(0,0,.5,1);
+  }
+ 
+  .cart-count {
+    position: absolute;
+    top: 0;
+    right: -10px; 
+    background-color: #fff; 
+    color: #007bff;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+
+  .void{
+    height: 50px;
+  }

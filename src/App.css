@@ -1,0 +1,36 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.sticky{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.cart-toggle-btn{
+ border: none;
+ background: none;
+ border-radius: 50px / 50px;
+ box-shadow: 2px 4px 12px rgba(1, 90, 255, 0.3);
+ background-color: #fff;
+ color: #007bff;
+ padding: 10px 20px;
+ font-size: 2rem;
+ font-weight: 600;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+ margin: 5px;
+}
+.cart-toggle-btn:hover{
+  color: #fff;
+  background-color: #000;
+ }
+ .cart{
+  max-width:2.5rem;
+ }
+

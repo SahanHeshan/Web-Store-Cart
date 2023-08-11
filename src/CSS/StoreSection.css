@@ -1,0 +1,29 @@
+
+.title {
+    width: 100%;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background: rgb(0,255,243);
+    background: linear-gradient(90deg, rgba(0,255,243,1) 0%, rgba(17,17,204,1) 100%);
+    text-align: center;
+  }
+  
+.title-text {
+    color: #fff;
+    font-size: 1.875rem;
+    font-weight: 800;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(0,255,243,1) 0%, rgba(17,17,204,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+      
+  }
+  .product-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+  }

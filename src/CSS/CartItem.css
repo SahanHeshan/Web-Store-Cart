@@ -1,0 +1,29 @@
+.cart-item-card{
+    color: #fff;
+    background-color: #000;
+    box-shadow: 2px 4px 12px rgba(1, 90, 255, 0.3);
+    font-size: 1rem;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 10px / 10px;
+    color: #007bff;
+    margin-top: 10px;
+}
+.name{
+    font-size: 2rem;
+    margin: 10px;
+}
+p{
+  color: #000;
+  font-weight: 600;  
+  width: fit-content;
+  padding: 5px;
+  box-shadow: 2px 4px 12px rgba(1, 90, 255, 0.3);
+}
+.remove{
+    border-radius: 10px / 10px;
+    color: #fff;
+    padding: 5px;
+    background-color: #000;
+    box-shadow: 2px 4px 12px rgba(1, 90, 255, 0.3);
+}

@@ -1,0 +1,63 @@
+
+.search-box {
+    position: relative;
+    background: rgb(0,255,243);
+    background: linear-gradient(90deg, rgba(0,255,243,1) 0%, rgba(17,17,204,1) 100%);
+    padding: 1rem;
+    text-align: center;
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 250px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.search-input:focus {
+    border-color: #007bff;
+    color: #000; 
+}
+
+/*sorting*/
+.sort-products {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column;
+}
+  
+  .button-container {
+    margin:20px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  
+  .sort-button {
+    border-radius: 50px / 50px;
+    box-shadow: 2px 4px 12px rgba(1, 90, 255, 0.3);
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+  }
+  
+  .sort-button:hover {
+    background-color:#007bff;
+    color: #fff;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.427);
+    transition: all .3s cubic-bezier(0,0,.5,1);
+  }
+  .sort-button.active {
+    background-color: #007bff;
+    color: #fff;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.427);
+    transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  }
