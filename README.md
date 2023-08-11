@@ -4,10 +4,10 @@
 
 ## Features
 
-1. **Search Bar:** Narrow down the product list. Also works with filters.
-2. **Item Filters:** Sort the list by Price, Stars, Category, Brand.
-3. **Product List:** Contains every item retrieved from the API.
-4. **Shopping Cart:** Displays the number of items in the cart, allows adding or removing multiple items.
+1. **Search Bar:**      Narrow down the product list. Also works with filters.
+2. **Item Filters:**    Sort the list by Price, Stars, Category, Brand.
+3. **Product List:**    Contains every item retrieved from the API.
+4. **Shopping Cart:**   Displays the number of items in the cart, allows adding or removing multiple items.
 5. **Cost Calculation.**
 6. **Responsive Design.**
 
