@@ -1,6 +1,6 @@
 # Web Store ( A Single-Page E-commerce Site )
 
-**Link:** href="https://sahanheshan.github.io/Web-Store-Cart/"
+**Link:** [Web Store](https://sahanheshan.github.io/Web-Store-Cart/){:target="_blank"}
 
 ## Features
 
