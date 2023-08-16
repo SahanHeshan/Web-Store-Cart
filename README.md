@@ -1,6 +1,6 @@
 # Web Store ( A Single-Page E-commerce Site )
 
-<h2>Link:Front-end View</h2>  https://sahanheshan.github.io/Web-Store-Cart/
+<h2>Link: Front-end View</h2>  https://sahanheshan.github.io/Web-Store-Cart/
 
 ## Features
 
